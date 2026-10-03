@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+  render:
+    - index.qmd
+    - reports/methods.qmd
+    - reports/analysis.qmd
+    - reports/limitations.qmd
+website:
+  navbar:
+    left:
+      - text: Overview
+        href: index.qmd
+      - text: Design
+        href: reports/methods.qmd
+      - text: Analysis
+        href: reports/analysis.qmd
+      - text: Limitations
+        href: reports/limitations.qmd
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-summary: Show analytical code
+    number-sections: true
+execute:
+  freeze: false

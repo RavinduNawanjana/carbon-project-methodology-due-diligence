@@ -1,0 +1,12 @@
+---
+title: "Carbon project methodology due diligence: evidence and scenario risk"
+subtitle: "Independent, reproducible research companion | illustrative quantitative inputs"
+---
+
+**Research object.** Carbon methodology evidence ledger, transparent assumptions, deterministic sensitivity and seeded Monte Carlo.
+
+**Status.** Exploratory feasibility / evidence-screening code. The inputs that come with this repository are **constructed for demonstration**; they are not observed project results or validation of external frameworks.
+
+**Open the analysis:** [Methods](reports/methods.qmd), [Reproducible report](reports/analysis.qmd), [Boundaries](reports/limitations.qmd).
+
+The source-to-claim audit is in [SOURCE_REGISTER.md](docs/SOURCE_REGISTER.md). Research use requires evaluating the [publication checklist](docs/PUBLICATION_CHECKLIST.md).

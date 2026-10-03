@@ -1,0 +1,7 @@
+source,source_statement_or_issue,evidence_class,analysis_treatment,needed_to_validate
+Estimated carbon credits using only crop rotation,Claimed total illustrative 12.0 tCO2e/ha/year practice stack,planning_assumption_unverified,Saved as a claim; not model input or verified baseline,Independent source-level emissions calculations
+Estimated carbon credits using only crop rotation,Claimed 10.8 tCO2e/ha/year after excluding reduced tillage,planning_assumption_unverified,Saved in claims ledger; not an issued credit,"Source measured SOC, CH4, N2O and counterfactual"
+Estimated carbon credits using only crop rotation,Assumed practices may overlap with AWD methane reduction,double_counting_risk,Warn on stack and segregate sources,Unique source/pool accounting and methodology tests
+July 2025 carbon-price draft,Purported US$70/carbon-credit benchmark,pricing_unverified,Excluded from scenario economics,Dated primary contracts / transactions and comparability
+Baseline checklist for CCR,Farm irrigation soil and land-history records requested,missing_evidence_plan,Blank evidence register supplied,"Authenticated files with dates, metadata and QA"
+Standards official websites,Methodology version and activity type require direct review,reference_for_review,No certification eligibility conclusion,Latest formal programme rules and registry status

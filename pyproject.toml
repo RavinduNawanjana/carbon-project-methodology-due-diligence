@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carbon-project-methodology-due-diligence"
+version = "2.0.0"
+description = "Carbon methodology evidence ledger, transparent assumptions, deterministic sensitivity and seeded Monte Carlo"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "matplotlib>=3.6"]
+notebooks = ["nbformat>=5", "ipykernel>=6", "jupyter>=1", "pandas>=2", "matplotlib>=3.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

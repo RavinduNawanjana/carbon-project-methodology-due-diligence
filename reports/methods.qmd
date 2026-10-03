@@ -1,0 +1,20 @@
+---
+title: "Methods and traceability"
+---
+
+## Study orientation
+
+Carbon methodology evidence ledger, transparent assumptions, deterministic sensitivity and seeded Monte Carlo.
+
+The model is designed for **screening**, not causal inference or regulatory certification. Unit contracts are explicit and all illustrative examples are segregated from any future observed datasets. Unmeasured inputs must be marked unknown rather than filled with generic estimates presented as facts.
+
+## Evidence architecture
+
+See [source register](../docs/SOURCE_REGISTER.md), [data dictionary](../docs/DATA_DICTIONARY.md), [research agenda](../docs/RESEARCH_AGENDA.md), and [model card](../docs/MODEL_CARD.md).
+
+## Reproducibility
+
+- Source documents are referenced by title only and not redistributed.
+- The core numerical engine is versioned and the tests include dimensional, boundary and exception conditions.
+- A fixed hypothetical example can be reproduced; it has no evidentiary status.
+- Differentiate uncertainty about model parameters from incomplete evidence about the project itself.

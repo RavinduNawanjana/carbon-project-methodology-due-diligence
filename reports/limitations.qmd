@@ -1,0 +1,17 @@
+---
+title: "Interpretation limits and publication safeguards"
+---
+
+## What is not established
+
+Historic 10.8 tCO2e/ha/year planning assumption and US$70/credit quotation are unverified, not certified outcomes or current prices.
+
+No numerical output from this repository demonstrates completed project activities, legally applicable offsets, approved registrations, project ownership, additionality, third-party verification or official organisational endorsement.
+
+## Publication controls
+
+The original source proposals and spreadsheets are not distributed. See [rights](../RIGHTS_AND_USE.md) and [publication checklist](../docs/PUBLICATION_CHECKLIST.md).
+
+## Future inference
+
+Meaningful empirical identification would require actual baseline information, dated and verified activity data, documented counterfactual assumptions, uncertainty, and relevant peer/independent review. Until then, visualisations and scenarios are explanatory only.
