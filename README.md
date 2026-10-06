@@ -1,8 +1,8 @@
 # Carbon project methodology due diligence: evidence and scenario risk
 
-**An independent, research-grade computational companion**, authored by Ravindu Nawanjana. Carbon methodology evidence ledger, transparent assumptions, deterministic sensitivity and seeded Monte Carlo.
+Carbon methodology evidence review with explicit assumptions, deterministic sensitivity analysis and seeded Monte Carlo simulation.
 
-> **READ FIRST:** Numerical examples in this repository are **ILLUSTRATIVE SCENARIOS**, not field observations, verified emissions, project registrations, corporate work products, market rates, issued offsets or actual project financial results. Original source drafts remain private; this repository has no implied institutional endorsement.
+> **Scope and limitations:** Numerical examples in this repository are **ILLUSTRATIVE SCENARIOS**, not field observations, verified emissions, project registrations, corporate work products, market rates, issued offsets or actual project financial results. Original source drafts remain private; this repository has no implied institutional endorsement.
 
 ## Project scope
 
@@ -14,7 +14,7 @@
 
 ## Research boundary
 
-**Not verified:** Historic 10.8 tCO2e/ha/year planning assumption and US$70/credit quotation are unverified, not certified outcomes or current prices. Replacing toy input assumptions with undocumented figures is not a defensible improvement. Record source, measurement year, denominator, geospatial boundary, ownership and permission before changing a scenario to *observed*.
+**Not verified:** Historic 10.8 tCO2e/ha/year planning assumption and US$70/credit quotation are unverified, not certified outcomes or current prices. Scenario values should only be replaced when a documented source and measurement basis are available. Record source, measurement year, denominator, geospatial boundary, ownership and permission before changing a scenario to *observed*.
 
 ## Quick start (Python 3.10+)
 
@@ -27,9 +27,9 @@ python scripts/run_all.py
 python scripts/create_figures.py
 ```
 
-Then install [Quarto](https://quarto.org/) and run `quarto render` to build the research companion in `_site/`. The rendered report is an auditable explanation of the model, not independently verified results. GitHub Actions automates tests and rendering. Run from the project root. For Jupyter: `python -m pip install -e ".[notebooks]"` and open `notebooks/exploratory_analysis.ipynb`.
+Then install [Quarto](https://quarto.org/) and run `quarto render` to build the report in `_site/`. The rendered report documents the model, assumptions, calculations and limitations. GitHub Actions automates tests and rendering. Run from the project root. For Jupyter: `python -m pip install -e ".[notebooks]"` and open `notebooks/exploratory_analysis.ipynb`.
 
-## Read the repository like a research paper
+## Documentation
 
 1. [Research question and research agenda](docs/RESEARCH_AGENDA.md).
 2. [Source register and provenance](docs/SOURCE_REGISTER.md).
@@ -55,10 +55,10 @@ outputs/             Locally generated tables; ignored by Git
 
 [Open the generated illustrative results table](docs/ILLUSTRATIVE_RESULTS_PREVIEW.md) to inspect the calculations without installing anything. Every displayed quantity is a hypothetical scenario.
 
-## Evidence-to-code crosswalk
+## Evidence mapping
 
-The [claim-level evidence crosswalk](docs/EVIDENCE_CROSSWALK.csv) maps individual statements in the source materials to their status, how the code treats them, and what primary evidence would be required to upgrade them. **Draft source statements are not independently verified facts.**
+The [evidence table](docs/EVIDENCE_CROSSWALK.csv) records the status of key source statements, their treatment in the analysis, and the additional evidence required for stronger interpretation.
 
 ## Interpretation and reuse
 
-The analysis **cannot** confer Verra/CDM eligibility, demonstrate GHG additionality, prove operational implementation, validate a corporate or event inventory, or guarantee commercial/regulatory outcomes. The research question is primarily whether analytical assumptions can be made explicit, tested, and revised as evidence arrives. For public reuse and distribution terms see [RIGHTS_AND_USE.md](RIGHTS_AND_USE.md); no unrestricted licence has been applied.
+The analysis **cannot** confer Verra/CDM eligibility, demonstrate GHG additionality, prove operational implementation, validate a corporate or event inventory, or guarantee commercial/regulatory outcomes. The analysis is designed to make assumptions explicit, test sensitivity to them, and update results when stronger evidence becomes available. For public reuse and distribution terms see [RIGHTS_AND_USE.md](RIGHTS_AND_USE.md); no unrestricted licence has been applied.
